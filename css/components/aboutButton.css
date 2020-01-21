@@ -1,0 +1,19 @@
+.about-button{
+    width: 380px;
+    height: 80px;
+    color: white;
+    background-color: #60215E;
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+    outline: none;
+    border-style: none;
+}
+
+.about-button  p{
+    margin: 0 auto;
+}
+.about-button i{
+    font-size: 80%;
+    margin-right: 3px;
+}
