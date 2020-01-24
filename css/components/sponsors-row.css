@@ -1,0 +1,21 @@
+.sponsors-row{
+    margin: 5vh;
+    align-items: baseline;
+}
+
+.sponsors-img-container{
+    padding: 10px;
+}
+
+.sponsors-img-container > img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 576px){
+    .sponsors-img-container{
+        margin: 5vh;
+    }
+    .sponsors-row{
+        margin: 0;
+    }
+}
