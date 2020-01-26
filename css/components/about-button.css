@@ -16,6 +16,9 @@
 
 .about-button  p{
     margin: 0 auto;
+    text-align: center;
+    font: Bold 21px/25px Montserrat;
+    color: #FFFFFF;
 }
 .about-button i{
     font-size: 80%;
@@ -27,5 +30,20 @@
         width: 50%;
         height: 10vw;
         padding: 1vh;
+    }
+    .about-button  p{
+        font: Bold 2.4vw Montserrat;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .about-button  p{
+        font: Bold 3vw Montserrat;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .about-button  p{
+        font: Bold calc(.5em + 1vmax) Montserrat;
     }
 }

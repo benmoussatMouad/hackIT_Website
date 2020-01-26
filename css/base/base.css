@@ -1,11 +1,16 @@
-h1{
+.section-header{
     position: relative;
     display: table;
     width: fit-content;
     margin-bottom: 15px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #42495B;
 }
 @media only screen and (max-width:768px){
-    h1{
+    .section-header{
         margin: 0 auto 10px;
+        font-size: 6vw;
     }
 }
