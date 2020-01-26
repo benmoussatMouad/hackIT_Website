@@ -1,3 +1,15 @@
-img.bg {
+.bg-image {
+    z-index: -99;
+    overflow: hidden;
     width: 100%;
+    position: relative;
+}
+
+.bg-image > img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
 }

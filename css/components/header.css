@@ -1,0 +1,33 @@
+header {
+    padding: 10px 10vw;
+    height: 15vh;
+    width: 100%;
+    max-height: 100px;
+    position: absolute;
+    font-size: 1em;
+}
+header img {
+    width: 100px;
+}
+header ul {
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+header ul li {
+    float: left;
+    height: min-content;
+    margin-right: 24px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}

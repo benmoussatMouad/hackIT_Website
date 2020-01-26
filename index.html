@@ -1,21 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Hack!T 3 - The Slogon Here</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <!-- Importing Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Importing fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700|Poppins:300,400,500,700|Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <!-- Including Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/06a369e083.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header></header>
+    <header class="d-flex flex-sm-row justify-content-between align-content-center">
+        <img src="imgs/hackIT_logo.svg" alt="hackIT logo" class="logo">
+        <ul class="d-flex flex-sm-row-reverse align-items-center">
+            <li><a href="">FAQ</a></li>
+            <li><a href="">SPONSORS</a></li>
+            <li><a href="">AGENDA</a></li>
+            <li><a href="">SPEAKERS</a></li>
+            <li><a href="">CHALLENGES</a></li>
+            <li><a href="">GALLERY</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">HOME</a></li>
+        </ul>
+    </header>
 
-    <section id="hero"></section>
+    <section class="hero bg-image">
+        <img src="imgs/hero_backgroundx2.png" alt="Groupe Picture">
+        <div class="container h-100">
+            <div class="hero-body pr-1" >
+                <div class="row ml-3">
+                    <h1 class="big-title">Hack !T <br> the <i class="extra-light">slogon here</i></h1>
+                    <div class="sub-head-title">
+                        <h3>Find !T, Solve !T, Share !T</h3>
+                        <h3 class="hero-widetext">Algiers</h3>
+                        <div class="text-center w-100">
+                            <button class="btn btn-primary">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-6 offset-6 text-center">
+                        <img src="imgs/cse_logo.svg" alt="">
+                        <p class="cse-description">Lorizzle ipsizzle dolor sizzle amizzle, for sure adipiscing elizzle. Nullizzle sapizzle velit, shit volutpat, for sure quis, gravida uhuh ... yih!, fo shizzle. Pellentesque eget tortor. Sizzle yo. Sure crazy dolor izzle shizzle my nizzle crocodizzle tempizzle shiznit. Maurizzle hizzle crazy izzle turpizzle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="data-economy"></section>
+    <section class="gallery"></section>
+    <section class="speakers"></section>
+    <section class="agenda"></section>
+    <section class="sponsors"></section>
+    <section class="faq"></section>
+    <section class="maps"></section>
     <section id="about">
         <!-- Content of the about section -->
         <div class="container ">
@@ -173,7 +216,7 @@
         <div class="container ">
             <h1 class="section-header">FAQ</h1>
             <div class="row justify-content-center">
-    
+
                 <div class="col-10">
                     <div class="faq-question is-closed">
                         <h3 class="faq-question-header">What is a hackathon?</h3>
@@ -244,5 +287,4 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/ouvrir-fermer-faq.js"></script>
 </body>
-
 </html>
