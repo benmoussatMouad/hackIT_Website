@@ -1,0 +1,49 @@
+.about-button{
+    width: 380px;
+    height: 80px;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    background:  #60215E 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #7E76F947;
+    -webkit-box-shadow: 0px 3px 6px #7E76F947;
+    border: 2px solid #6A1554;
+    margin-top: 40px;
+}
+.about-button:focus{
+    outline: none;
+}
+
+.about-button  p{
+    margin: 0 auto;
+    text-align: center;
+    font: Bold 21px/25px Montserrat;
+    color: #FFFFFF;
+}
+.about-button i{
+    font-size: 80%;
+    margin-right: 3px;
+}
+
+@media only screen and (max-width:768px){
+    .about-button{
+        width: 50%;
+        height: 10vw;
+        padding: 1vh;
+    }
+    .about-button  p{
+        font: Bold 2.4vw Montserrat;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .about-button  p{
+        font: Bold 3vw Montserrat;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .about-button  p{
+        font: Bold calc(.5em + 1vmax) Montserrat;
+    }
+}
