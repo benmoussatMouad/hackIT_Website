@@ -1,0 +1,18 @@
+.object {
+    background-color: #A9216D;
+    width: 600px;
+    height: 600px;
+    border-radius: 30%;
+    position: absolute;
+    z-index: -99;
+}
+
+.object-1 {
+    top: 70vh;
+    right: -33vw;
+    -webkit-transform: rotateZ(-20deg);
+    -moz-transform: rotateZ(-20deg);
+    -ms-transform: rotateZ(-20deg);
+    -o-transform: rotateZ(-20deg);
+    transform: rotateZ(-20deg);
+}

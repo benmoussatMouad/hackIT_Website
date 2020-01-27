@@ -3,7 +3,8 @@
 @import 'components/about-button.css';
 @import 'components/data-eco-item.css';
 @import 'components/sponsors-row.css';
-@import 'components/faq-question.css'
+@import 'components/faq-question.css';
 @import url('components/header.css');
 @import url('components/hero.css');
 @import url('components/bg-image.css');
+@import "components/object.css";

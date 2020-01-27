@@ -3,7 +3,7 @@ header {
     height: 15vh;
     width: 100%;
     max-height: 100px;
-    position: absolute;
+    position: fixed;
     font-size: 1em;
 }
 header img {

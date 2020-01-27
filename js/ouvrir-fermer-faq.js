@@ -1,4 +1,4 @@
-let faqQuestions = document.getElementsByClassName("faq-question")
+let faqQuestions = document.getElementsByClassName("faq-question");
 for (let index = 0; index < faqQuestions.length; index++) {
     const element = faqQuestions[index];
     element.onclick = () => {
