@@ -1,0 +1,16 @@
+.gallery-img-container{
+    padding-top: 7vh;
+    width: 100%;
+}
+
+.gallery-img{
+    width: auto;
+    max-height: 230px;
+    padding: 0;
+}
+
+@media only screen and (max-width: 572px) {
+    .gallery-img{
+        height: 300px;
+    }   
+}

@@ -9,7 +9,7 @@ function isOnViewport(element) {
 window.addEventListener('scroll', (e) => {
     aboutItems.forEach(element => {
         if (isOnViewport(element)) {
-            element.className += ' is-appearing'
+            element.classList.add('is-appearing')
         }
     })
 })
@@ -17,7 +17,7 @@ window.addEventListener('scroll', (e) => {
 window.addEventListener('load', (e) => {
     aboutItems.forEach(element => {
         if(isOnViewport(element)){
-            element.className += ' is-appearing'
+            element.classList.add('is-appearing')
         }
     })
 })
