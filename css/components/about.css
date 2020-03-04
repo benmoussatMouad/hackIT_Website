@@ -17,7 +17,7 @@
 .about-button  p{
     margin: 0 auto;
     text-align: center;
-    font: Bold 1.6rem Montserrat;
+    font: 600 1rem "Montserrat";
     color: #FFFFFF;
 }
 .about-button i{
