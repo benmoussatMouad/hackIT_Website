@@ -1,8 +1,23 @@
 .data-economy-p{
-    padding:5vh 7vw ;
+    padding:4vh 7vw ;
     border-radius: 7%/50%;
     border: 1px black solid;
     font:  Montserrat;
     color: #42495B;
     margin: 5vh 0;
+    text-align: justify;
 }
+
+@media only screen and (max-width:992px){
+    .data-economy-p{
+        padding: 3vh 7vw;
+        border-radius: 10%/50%;
+    }
+}   
+@media only screen and (max-width:768px){
+    .data-economy-p{
+        padding: 3vh 50px;
+        border-radius: 15%/50%;
+    }
+}   
+

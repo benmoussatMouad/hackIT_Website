@@ -11,7 +11,7 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 768px){
     .sponsors-img-container{
         margin: 5vh;
     }
