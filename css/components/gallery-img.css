@@ -1,6 +1,8 @@
 .gallery-img-container{
+    max-width: 1600px;
     padding-top: 7vh;
     width: 100%;
+    margin: 0 auto;
 }
 
 .gallery-img{
@@ -13,4 +15,9 @@
     .gallery-img{
         height: 300px;
     }   
+}
+@media only screen and (min-width: 1441px){
+    .gallery-img-container{
+        padding: 7vh 5vh 0;
+    }
 }
