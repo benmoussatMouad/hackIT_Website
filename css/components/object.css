@@ -16,3 +16,15 @@
     -o-transform: rotateZ(-20deg);
     transform: rotateZ(-20deg);
 }
+
+
+.object-2 {
+    top: 120vh;
+    opacity: .42;
+    left: -32vw;
+    -webkit-transform: rotateZ(-20deg);
+    -moz-transform: rotateZ(-20deg);
+    -ms-transform: rotateZ(-20deg);
+    -o-transform: rotateZ(-20deg);
+    transform: rotateZ(-20deg);
+}

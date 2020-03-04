@@ -21,7 +21,7 @@
     -moz-animation-name: chake;
     -o-animation-name: chake;
     animation-name: chake;
-    animation-duration: 8s;
+    animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 0.5s;
@@ -96,6 +96,11 @@
      font-size: 0.8rem;
      letter-spacing: 0.056rem;
      padding: 7px 20px;
+ }
+
+ .hero .sub-head-title button:hover {
+     cursor: pointer;
+     background-color: rgba(201, 71, 198, 0.48);
  }
 
  .hero-body .cse-description {
