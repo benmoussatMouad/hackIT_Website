@@ -1,0 +1,51 @@
+.loading-page{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 900;
+    background-color: white;
+}
+.layer{
+    position: relative;
+    border-top:  5px #60215E solid;
+    border-left:  5px #60215E solid;
+    border-radius:50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation-name:rotation;
+    animation-iteration-count: infinite;
+}
+
+.first-layer{
+    height: 20vh;
+    width: 20vh;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+.second-layer{
+    height: 15vh;
+    width: 15vh;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+.third-layer{
+    height: 10vh;
+    width: 10vh;
+    animation-duration: 2s;
+}
+.fourth-layer{
+    height: 5vh;
+    width: 5vh;
+    animation-duration: 2.5s;
+}
+
+
+@keyframes rotation{
+    0%{
+        transform: translate(-50%,-50%);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
