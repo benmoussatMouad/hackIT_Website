@@ -5,7 +5,7 @@ header {
     max-height: 100px;
     position: fixed;
     font-size: 1em;
-    z-index: 99;
+    z-index: 1;
 }
 header img {
     z-index: 1;
