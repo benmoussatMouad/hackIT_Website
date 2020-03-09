@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 html {
@@ -37,21 +38,9 @@ html {
     font-weight: 600;
     color: #42495B;
 }
-.container-xxl{
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-}
 @media only screen and (max-width:992px){
     .section-header{
         margin: 0 auto 10px;
         font-size: 6vw;
-    }
-}
-
-@media only screen and (min-width:160px){
-    .container-xxl{
-        width: 1400px;
-        margin: 0 auto;
     }
 }
