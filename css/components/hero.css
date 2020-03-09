@@ -7,15 +7,14 @@
 }
 
 /* Targeting bg image for hero since it's unique */
-.hero > img {
+.hero  .hero-bg {
     position: absolute;
     z-index: -99;
-    top: -130px !important;
-    left: 0 !important;
-    bottom: unset !important;
-    right: unset !important;
-    width: 100%;
+    top: -250px;
+    left: -18vw;
+    /*width: 100%;*/
     min-width: 1300px;
+    max-width: 1750px;
 
     -webkit-animation-name: chake;
     -moz-animation-name: chake;
@@ -25,6 +24,20 @@
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 0.5s;
+}
+
+@media screen and (max-width: 1450px) {
+    .hero .hero-bg {
+        top: -320px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .hero .hero-bg {
+        top: -400px;
+        left: -256px;
+    }
+
 }
 
 
@@ -74,8 +87,8 @@
  }
 
  .hero .sub-head-title button:hover {
-     cursor: pointer;
-     background-color: rgba(201, 71, 198, 0.48);
+     cursor: pointer !important;
+     background-color: rgba(235, 81, 232, 0.24) !important;
  }
 
  .hero-body .cse-description {

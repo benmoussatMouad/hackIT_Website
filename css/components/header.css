@@ -5,10 +5,10 @@ header {
     max-height: 100px;
     position: fixed;
     font-size: 1em;
-    z-index: 1;
+    z-index: 2;
 }
 header img {
-    z-index: 1;
+    z-index: 2;
     width: 100px;
 }
 

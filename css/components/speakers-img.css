@@ -58,20 +58,26 @@
 .speakers-img--opacity:hover{
     background-color: rgba(0, 0,0, 0);
 }
-.speakers-p{
+.speakers-p {
     position: relative;
     margin: 20px 0;
     width: 130%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    line-height: 18pt;
 }
-.speakers-bio{
-    min-height: 300px;
+.speakers-bio {
     max-height: 600px;
-    z-index: 90;
+    z-index: 1;
     position: absolute;
     width: 100%;
     transform: translateY(300px);
     display: flex;
     justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    height: min-content;
+
 }
 .speakers-bio > img{
     position: absolute;
@@ -79,7 +85,7 @@
     width: 100%;
 }
 .speakers-bio > p{
-    z-index: 90;
+    z-index: 1;
     padding: 20px;
 }
 

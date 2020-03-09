@@ -25,6 +25,7 @@ footer .footer-container {
     z-index: 4;
     padding-top: 200px;
     pointer-events: none;
+    max-height: 900px;
 }
 
 

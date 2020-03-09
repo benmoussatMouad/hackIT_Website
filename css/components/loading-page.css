@@ -5,6 +5,19 @@
     z-index: 900;
     background-color: white;
 }
+
+.loading-page > img {
+    position: absolute;
+    margin: 20px 0;
+    width: 250px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
 .layer{
     position: relative;
     border-top:  5px #60215E solid;
