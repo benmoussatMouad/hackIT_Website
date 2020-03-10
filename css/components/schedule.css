@@ -1,0 +1,74 @@
+#schedulePoint {
+    display: -webkit-box;
+    display: flex;
+    background-color: #fff
+}
+
+#schedulePoint .col {
+    -webkit-box-flex: 50%;
+    flex: 50%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0;
+    max-width: 50%;
+    min-width: 100px;
+    border: .5pt solid #9e9e9e
+}
+
+#schedulePoint .col .text {
+    color: #000;
+    margin: 12px 8px
+}
+#schedule {
+    margin-top: 192px
+}
+
+#schedule #title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color:black;
+    text-align: center
+}
+
+@media (min-width:992px) {
+    #schedule #title {
+        text-align: left
+    }
+}
+
+@media (min-width:576px) {
+    #schedule #title {
+        font-size: 90px
+    }
+}
+
+@media (min-width:1200px) {
+    #schedule #title {
+        font-size: 120px
+    }
+}
+
+#schedule .timetable .column {
+    margin-top: 36px
+}
+
+#schedule .timetable .column .workshops {
+    text-align: center;
+    margin: 16px 0
+}
+
+#schedule .timetable .column .header {
+    background-image: linear-gradient(to right, #60215E 0%, #A9216D 100%);
+    background-image: -moz-linear-gradient(to right, #60215E 0%, #A9216D 100%);
+    background-image: -webkit-linear-gradient(to right, #60215E 0%, #A9216D 100%);
+    background-image: -o-linear-gradient(to right, #60215E 0%, #A9216D 100%);
+    padding: 8px 12px;
+    border-top-right-radius: 32px
+}
+
+#schedule .timetable .column .header h3 {
+    margin: 0;
+    color: white;
+}
