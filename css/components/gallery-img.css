@@ -13,7 +13,7 @@
 
 @media only screen and (max-width: 572px) {
     .gallery-img{
-        max-height: none;
+        max-height: 400px;
     }   
 }
 @media only screen and (min-width: 1441px){
