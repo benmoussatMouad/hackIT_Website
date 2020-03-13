@@ -6,6 +6,19 @@
     height: 100vh;
 }
 
+@media screen and (max-width: 1200px) {
+    .hero {
+        padding: 8vh 0 0;
+    }
+
+}
+@media screen and (max-width: 900px) {
+    .hero {
+        padding: 9vh 0 0;
+        height: auto;
+    }
+
+}
 /* Targeting bg image for hero since it's unique */
 .hero  .hero-bg {
     position: absolute;
@@ -18,8 +31,35 @@
 
 }
 
+.hero .hero-bg-mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+    width: 100%;
+    min-width: 800px;
+}
 
+@media screen and (max-width: 1000px){
+    .hero .hero-bg {
+        display: none;
+    }
+    .hero .hero-bg-mobile {
+        display: block;
+    }
 
+}
+
+/*********************/
+/**** Hero Content *****/
+
+@media screen and (max-width: 900px){
+    .hero .container {
+        min-width: unset !important;
+    }
+
+}
 
 .hero-body {
 }
@@ -27,6 +67,12 @@
 .hero-body  h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+}
+
+@media screen and (max-width: 9200px) {
+    .hero-body  h1 {
+        margin-bottom: 57px;
+    }
 }
 
 .hero-body  h1 .extra-light {
