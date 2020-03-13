@@ -1,44 +1,24 @@
 .hero {
     width: 100%;
-    height: 100%;
     padding: 15vh 0 0;
     margin: unset; /*Removing the layout effect for the hero section (no 15vh for margin-top*/
     color: white;
+    height: 100vh;
 }
 
 /* Targeting bg image for hero since it's unique */
 .hero  .hero-bg {
     position: absolute;
     z-index: -99;
-    top: -250px;
-    left: -18vw;
+    top: -13vw;
+    left: -2vw;
     /*width: 100%;*/
     min-width: 1300px;
-    max-width: 1750px;
-
-    -webkit-animation-name: chake;
-    -moz-animation-name: chake;
-    -o-animation-name: chake;
-    animation-name: chake;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    animation-delay: 0.5s;
-}
-
-@media screen and (max-width: 1450px) {
-    .hero .hero-bg {
-        top: -320px;
-    }
-}
-
-@media screen and (max-width: 1250px){
-    .hero .hero-bg {
-        top: -400px;
-        left: -256px;
-    }
+    max-width: 110vw;
 
 }
+
+
 
 
 .hero-body {
@@ -96,10 +76,42 @@
      font-weight: 400;
      text-align: center;
      color: #505050;
-     font-size: 0.9rem;
+     font-size: 1rem;
      line-height: 20pt;
  }
 
+/*screen breakpoints*/
+@media screen and (max-width: 1450px) {
+    .hero .hero-bg {
+        top: -100px;
+        left: -5vw;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .hero .hero-bg {
+        top: -100px;
+    }
+
+    .hero-body  .sub-head-title h3 {
+        font-size: 1.7rem;
+    }
+
+}
+
+/*Animatons*/
+
+.animation-chake {
+
+    -webkit-animation-name: chake;
+    -moz-animation-name: chake;
+    -o-animation-name: chake;
+    animation-name: chake;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
 
 @keyframes chake {
     0% {

@@ -9,7 +9,7 @@
 
 .object-1 {
     top: 70vh;
-    right: -33vw;
+    right: -580px;
     -webkit-transform: rotateZ(-20deg);
     -moz-transform: rotateZ(-20deg);
     -ms-transform: rotateZ(-20deg);
@@ -20,7 +20,7 @@
 
 .object-2 {
     opacity: .42;
-    left: -30%;
+    left: -550px;
     position: absolute;
     -webkit-transform: rotateZ(-20deg);
     -moz-transform: rotateZ(-20deg);
@@ -40,8 +40,16 @@
     -moz-transform: rotateZ(-20deg) scale(1.4);
     -ms-transform: rotateZ(-20deg) scale(1.4);
     -o-transform: rotateZ(-20deg) scale(1.4);
-    transform: translateY(-500px) rotateZ(-20deg) scale(1.4) ;
+    transform: rotateZ(-20deg) scale(1.4);
 
-    left: -35%;
+    left: -610px;
+    top: 160px;
     opacity: .70;
+}
+
+/*fixing an issue with low resolution screens*/
+@media screen and (max-width: 1450px) {
+    .object-4 {
+        left: -650px;
+    }
 }

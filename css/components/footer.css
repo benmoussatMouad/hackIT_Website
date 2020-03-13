@@ -3,7 +3,14 @@ footer {
     height: 100vh;
     color: white;
     margin-top: -100vh;
-    z-index: 4 !important;
+    z-index: 5 !important;
+}
+
+footer .footer-wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden !important;
+    position: relative;
 }
 
 footer .clipper {
@@ -25,15 +32,18 @@ footer .footer-container {
     z-index: 4;
     padding-top: 200px;
     pointer-events: none;
-    max-height: 900px;
+    /*max-height: 900px;*/
 }
+
+
 
 
 footer .footer-bg {
     position: absolute;
-    bottom: 0 !important;
-    right: -150px !important;
+    top: 150px !important;
+    right: -300px !important;
     z-index: -1 !important;
+    height: 100vh;
 }
 
 footer .footer-logo {
@@ -112,16 +122,3 @@ footer .profile-pic img {
     margin: auto;
 }
 
-footer .profile-pic.pic-3, .pic-4 {
-    transform: rotateZ(90deg);
-}
-
-footer .pic-3 img, footer .pic-4 img {
-    width: 150%;
-    position: absolute;
-    margin: auto;
-    top: -9999px;
-    bottom: -9999px;
-    left: -9999px;
-    right: -9999px;
-}

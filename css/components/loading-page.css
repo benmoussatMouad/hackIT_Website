@@ -1,5 +1,5 @@
 .loading-page{
-    position: absolute;
+    position: fixed;
     height: 100vh;
     width: 100vw;
     z-index: 900;
