@@ -14,8 +14,8 @@
 </head>
 
 <body>
-
-    <div class="container-fluid loading-page">
+    <div class="wrapper">
+        <div class="container-fluid loading-page">
         <div class="layer first-layer">
             <div class="layer second-layer">
                 <div class="layer third-layer">
@@ -72,8 +72,8 @@
         <div class="object object-2"></div>
         <!-- Content of the about section -->
         <div class="container ">
+            <!-- First item -->
             <div class="row  justify-content-center  justify-content-lg-start ">
-                <!-- First item -->
                 <div class="col-10 col-sm-12 col-lg-6 about-item">
                     <!-- The header -->
                     <h1 class="section-header">What is Hack!T</h1>
@@ -85,10 +85,13 @@
                         Algeria to learn about new technologies, develop solutions for the different problems that will
                         be announced.</p>
                 </div>
+                <div class="col-6 d-none d-lg-block">
+                    <img src="imgs/hackIT_logo_grad.svg" style="width: 50%; transform: translateX(50%);"/>
+                </div>
                 <!-- Second item -->
-                <div class="col-10 col-sm-12 col-lg-6 offset-lg-6 about-item ">
+                <div class="col-10 col-sm-12 about-item ">
                     <!-- The header -->
-                    <h1 class="section-header">About last edition</h1>
+                    <h1 class="section-header" style="margin: 15px auto;">About last edition</h1>
                     <!-- The paragraph -->
                     <p class="about-paragraph">Le HackIT a compté plus de 80 participants de différentes universités et
                         écoles supérieurs de
@@ -144,38 +147,29 @@
             <!-- The photos of gallery -->
             <div class="gallery-img-container">
                 <div class="row d-flex justify-content-center">
-                    <!--<img class="col-10 col-sm-6 col-md-auto flex-md-grow-1 gallery-img"-->
-                        <!--src="https://images.unsplash.com/photo-1583106104776-285af6fd8693?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" />-->
-                    <!--<img class="col-10 col-sm-6 col-md-auto flex-md-grow-1 gallery-img"-->
-                        <!--src="https://images.unsplash.com/photo-1583096985230-7cbff05f1bba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80" />-->
-                    <!--<img class="col-10 col-sm-6 col-md-auto flex-md-grow-1 gallery-img"-->
-                        <!--src="https://images.unsplash.com/photo-1583135730551-1774eeb6f37e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" />-->
-                    <!--<img class="col-10 col-sm-6 col-md-auto flex-md-grow-1 gallery-img"-->
-                        <!--src="https://images.unsplash.com/photo-1583143506828-56e05e4bc268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" />-->
-                        <!--<img class="col-10 col-sm-6 col-md-auto flex-md-grow-1 gallery-img"-->
-                            <!--src="https://images.unsplash.com/photo-1583135730551-1774eeb6f37e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" />-->
-                        <!--<img class="col-10 col-sm-6 col-md-auto flex-md-grow-1 gallery-img"-->
-                            <!--src="https://images.unsplash.com/photo-1583096985230-7cbff05f1bba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80" />-->
-                        <!--<img class="col-10 col-sm-6 col-md-auto flex-md-grow-1 gallery-img"-->
-                            <!--src="https://images.unsplash.com/photo-1583135730551-1774eeb6f37e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" />-->
-                        <!--<img class="col-10 col-sm-6 col-md-auto flex-md-grow-1 gallery-img"-->
-                            <!--src="https://images.unsplash.com/photo-1583106104776-285af6fd8693?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" />-->
+                    <img class="col-12 col-sm-6 col-lg-3 flex-md-grow-1 gallery-img" src="./imgs/DSC_0003.JPG" />
+                    <img class="col-12 col-sm-6 col-lg-3 flex-md-grow-1 gallery-img" src="./imgs/DSC_0104.JPG" />
+                    <img class="col-12 col-sm-6 col-lg-3 flex-md-grow-1 gallery-img" src="./imgs/DSC_0169.JPG" />
+                    <img class="col-12 col-sm-6 col-lg-3 flex-md-grow-1 gallery-img" src="./imgs/DSC_0282.JPG" />
+                    <img class="col-12 col-sm-6 col-lg-3 flex-md-grow-1 gallery-img" src="./imgs/DSC_0344.JPG" />
+                    <img class="col-12 col-sm-6 col-lg-3 flex-md-grow-1 gallery-img" src="./imgs/IMG_0095.JPG" />
+                    <img class="col-12 col-sm-6 col-lg-3 flex-md-grow-1 gallery-img" src="./imgs/IMG_0097.JPG" />
+                    <img class="col-12 col-sm-6 col-lg-3 flex-md-grow-1 gallery-img" src="./imgs/IMG_0120.JPG" />
                 </div>
             </div>
         </div>
     </section>
-    <section id="speakers" class="speakers">
-        <div class="container" style="margin-bottom: 20vh;">
+    <section id="speakers" class="speakers" style="overflow-x: hidden; overflow-y: hidden;margin-bottom: 0;">
+        <div class="container speakers-container">
             <h1 class="section-header">Speakers & Mentors</h1>
-            <div class="col-4 speakers-bio">
-                <img src="imgs/Union 1.png">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusantium ducimus nihil. Voluptatem
-                    reprehenderit minus quasi ea autem accusamus, atque quod, minima, omnis harum similique repudiandae
-                    assumenda earum! Quia unde asperiores quam, molestias at excepturi pariatur nemo officia.
-                    Perferendis, reprehenderit?</p>
-            </div>
-            <div class="row justify-content-lg-end">
-                <div class="col-8 col-lg-4">
+            <div class="row justify-content-center">
+                <div class="col-8 col-lg-4 speakers-bio align-self-start">
+                    <img src="imgs/Union 1.png">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, quasi nulla! Alias, recusandae.
+                        Autem temporibus suscipit quisquam omnis facere consequuntur, officia reprehenderit perspiciatis
+                        vitae maxime doloribus sapiente. Odit, illo error.</p>
+                </div>
+                <div class="col-10 col-lg-4">
                     <p class="speakers-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, quia
                         tenetur reprehenderit
                         culpa labore, mollitia modi eveniet, totam libero atque numquam quam expedita perspiciatis minus
@@ -186,8 +180,7 @@
                         <div class="d-flex align-items-end ">
                             <div class="d-flex flex-column align-items-end">
                                 <div class="speakers-img speakers-img--xl">
-                                    <img src="imgs/mouad.jpg"
-                                        class="speakers-img--img" alt="">
+                                    <img src="imgs/mouad.jpg" class="speakers-img--img" alt="">
                                 </div>
                                 <div class="d-flex align-items-end">
                                     <div class="speakers-img speakers-img--xs">
@@ -236,7 +229,7 @@
             </div>
         </div>
     </section>
-    <section id="agenda" class="agenda">
+    <section id="agenda" class="agenda" style="margin-top: 100px">
         <div id="schedule" class="container">
             <div class="row">
                 <div class="col">
@@ -667,6 +660,7 @@
             </div>
         </div>
     </footer>
+    </div>
 
 
     <!--Import JS -->
