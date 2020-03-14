@@ -17,7 +17,12 @@
         padding: 9vh 0 0;
         height: auto;
     }
-
+}
+@media screen and (max-width: 540px) {
+    .hero {
+        padding-top: 100px;
+    }
+    
 }
 /* Targeting bg image for hero since it's unique */
 .hero  .hero-bg {
@@ -56,7 +61,34 @@
 
 @media screen and (max-width: 900px){
     .hero .container {
-        min-width: unset !important;
+        max-width: unset !important;
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .hero .container {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .hero .hero-body .cse {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .hero .hero-body .cse {
+        width: 100% !important;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .hero .hero-body .cse {
+        max-width: unset;
     }
 
 }
@@ -69,11 +101,27 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 9200px) {
+@media screen and (max-width: 920px) {
     .hero-body  h1 {
         margin-bottom: 57px;
     }
 }
+
+@media screen and (max-width: 770px) {
+    .hero-body h1 {
+        margin-bottom: 20px;
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .hero .hero-body h1 {
+        font-size: 3.5rem;
+        margin-bottom: 50px;
+    }
+}
+
+
 
 .hero-body  h1 .extra-light {
     font-style: unset   ;
@@ -91,6 +139,13 @@
     font-weight: 300;
     margin-bottom: 20px;
     letter-spacing: 0.056rem;
+
+}
+
+@media screen and (max-width: 520px) {
+    .hero .hero-body .sub-head-title h3 {
+        font-size: 1.5rem;
+    }
 
 }
 
@@ -142,7 +197,6 @@
     .hero-body  .sub-head-title h3 {
         font-size: 1.7rem;
     }
-
 }
 
 /*Animatons*/

@@ -33,24 +33,24 @@
 .first-layer{
     height: 20vh;
     width: 20vh;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-delay: 1s;
 }
 .second-layer{
     height: 15vh;
     width: 15vh;
-    animation-duration: 1.5s;
+    animation-duration: 4.5s;
     animation-delay: 1s;
 }
 .third-layer{
     height: 10vh;
     width: 10vh;
-    animation-duration: 2s;
+    animation-duration: 6s;
 }
 .fourth-layer{
     height: 5vh;
     width: 5vh;
-    animation-duration: 2.5s;
+    animation-duration: 7.5s;
 }
 
 

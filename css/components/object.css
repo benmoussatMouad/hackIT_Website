@@ -28,11 +28,22 @@
     -o-transform: rotateZ(-20deg);
     transform: rotateZ(-20deg);
 }
+@media screen and (max-width: 900px) {
+    .object-2 {
+        left: -600px;
+    }
+}
 
 .object-3 {
     right: -680px;
     opacity: .69;
     transform: rotateZ(-20deg) scale(1.4) translateY(-120px);
+}
+
+@media screen and (max-width: 720px) {
+    .object-3 {
+        right: -800px;
+    }
 }
 
 .object-4 {
@@ -52,4 +63,11 @@
     .object-4 {
         left: -650px;
     }
+}
+
+@media screen and (max-width: 520px) {
+    .object-4 {
+        left: -670px;
+    }
+    
 }
